@@ -1,18 +1,18 @@
-POST http://localhost:3001/videos
+POST https://kn-node-do-zero.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title": "Video node",
-    "description": "Description 01",
+    "title": "Video node02",
+    "description": "Description 0102",
     "duration": 190
 }
 
 ###
-# GET http://localhost:3001/videos?search=node
-GET http://localhost:3001/videos
+# GET https://kn-node-do-zero.onrender.com/videos?search=node
+GET https://kn-node-do-zero.onrender.com/videos
 
 ###
-PUT http://localhost:3001/videos/615c1bae-b210-40a3-9235-b5bb199f00bd
+PUT https://kn-node-do-zero.onrender.com/videos/615c1bae-b210-40a3-9235-b5bb199f00bd
 Content-Type: application/json
 
 {
@@ -22,4 +22,4 @@ Content-Type: application/json
 }
 
 ### 
-DELETE  http://localhost:3001/videos/615c1bae-b210-40a3-9235-b5bb199f00bd
+DELETE  https://kn-node-do-zero.onrender.com/videos/615c1bae-b210-40a3-9235-b5bb199f00bd

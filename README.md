@@ -61,7 +61,7 @@ server.listen({
 })
 ```
 
-## Usano Fastify com TypeScript:
+## Usando Fastify com TypeScript:
 1. Crie um novo projeto npm, instale o Fastify e instale os tipos typescript e node.js como dependências de pares:
 ```
 npm init -y
