@@ -8,17 +8,18 @@ Content-Type: application/json
 }
 
 ###
+# GET http://localhost:3001/videos?search=node
 GET http://localhost:3001/videos
 
 ###
-PUT http://localhost:3001/videos/54594cbb-0a27-4fec-a3a4-8941cc61be1e
+PUT http://localhost:3001/videos/615c1bae-b210-40a3-9235-b5bb199f00bd
 Content-Type: application/json
 
 {
-    "title": "Video03",
-    "description": "Description 03",
-    "duration": 190
+    "title": "Video06",
+    "description": "Description 06",
+    "duration": 10
 }
 
 ### 
-DELETE  http://localhost:3001/videos/2c92e2fa-b82c-4ea1-b28b-500744f7de2a
+DELETE  http://localhost:3001/videos/615c1bae-b210-40a3-9235-b5bb199f00bd
