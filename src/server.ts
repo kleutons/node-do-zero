@@ -58,6 +58,7 @@ server.delete('/videos/:id', async (req: FastifyRequest<{ Params: idRouteParams 
 });
 
 server.listen({
+    host: '0.0.0.0',
     port: portServer
 }, (err, address) => {
     if (err) {

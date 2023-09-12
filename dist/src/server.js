@@ -50,6 +50,7 @@ server.delete('/videos/:id', (req, reply) => __awaiter(void 0, void 0, void 0, f
     return reply.status(204).send();
 }));
 server.listen({
+    host: '0.0.0.0',
     port: portServer
 }, (err, address) => {
     if (err) {
